@@ -30,6 +30,24 @@ git checkout -- .
 git commit -- amend -m "new commit message"
 
 
+# quick commit
+
+git commit -am  "<commit message>"
+
+# reset hard
+
+git reset --hard  [commit hash]
+
+Revert to the tenth commit in the list:
+git reset --hard master@{10}
+
+Start a new branch from the commit that the master pointed to one month back:
+git checkout -b branchX master@{'one month ago'}
+
+Simply knowing that git reflog exists, and will allow me to revert to any previous commit if something has gone wrong. It remembers those commits that was "deleted" by rewriting history, using commands like git rebase, git reset, and git commit --amend.
+Show every commit that the master branch has pointed to in the past:
+git reflog show master
+
 
 ssh
 =======
