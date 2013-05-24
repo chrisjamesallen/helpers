@@ -33,10 +33,22 @@ git commit -- amend -m "new commit message"
 
 ssh
 =======
+https://help.github.com/articles/generating-ssh-keys
+https://confluence.atlassian.com/display/BITBUCKET/Set+up+SSH+for+Git
+ 
+#view keygen
+ls ~/.ssh
 
-create
+#create
+ssh-keygen -t rsa -C "your_email@example.com"
 
-ssh-keygen
+
+pbcopy < ~/.ssh/id_rsa.pub
+# Copies the contents of the id_rsa.pub file to your clipboar
+
+
+
+
 
 
 
