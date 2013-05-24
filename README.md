@@ -44,12 +44,12 @@ ssh-keygen -t rsa -C "your_email@example.com"
 
 
 pbcopy < ~/.ssh/id_rsa.pub
-# Copies the contents of the id_rsa.pub file to your clipboar
+# Copies the contents of the id_rsa.pub file to your clipboard
 
 
 
-
-
+terminal
+=======
 
 
 
