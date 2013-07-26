@@ -71,4 +71,30 @@ terminal
 
 
 
+FFMpeg
+=======
+
+# Create thumbnails with offset of {sixty} seconds to {test60.jpg} filename
+
+ffmpeg  -itsoffset -60  -i VB_2013.mp4 -vcodec mjpeg -vframes 1 -an -f rawvideo -s 67x50 test60.jpg
+
+# Extract audio from movie
+
+ffmpeg -b 192k -i file file.mp3
+
+
+
+
+XCODE
+
+# clear cache
+~/Library/caches/com.apple.dt.Xcode
+
+
+
+
+
+
+
+
 

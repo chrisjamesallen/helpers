@@ -1,0 +1,7 @@
+function silly {
+	local fooey=('💕 '  '👓' '🌂' '👍' '👺' '💀' '💩' '🔥' '💦' '🐝' '🐲' '🐞' '🐠' '🐼' '🔫' '🏀' '👾');
+	local picker=$[ ($RANDOM % ${#fooey[@]} ) ]
+	echo ${fooey[picker]}
+}
+
+silly
